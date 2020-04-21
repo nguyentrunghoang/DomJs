@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+form, .list{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 50px;
+    margin: 50px 100px;
+    text-align: center;
+}
+label{
+    font-size: 40px;
+    color: rgb(1, 24, 1);
+    font-weight: bold;
+}
+.form-group{
+    display: block;
+}
+button{
+    width: 10%;
+}
+.list{
+    display: flex;
+    padding: 10px;
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+li{
+    display: flex;
+    background-color: rgb(188, 194, 188);
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 5px;
+    width: 80%;
+    margin-left: 100px;
+    border-radius: 5px;
+}
+input[type="checkbox"]{
+    float: left;
+    margin: 15px 0 0 7px;
+    flex-grow: 1;
+}
+span{
+    width: 200px;
+    text-align: center;
+    color: black;
+    flex-grow: 2;
+}
+
+.remove{
+    width: 30px;
+    float: right;
+    background-color: red;
+    flex-grow: 1;
+}
